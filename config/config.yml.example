@@ -1,0 +1,20 @@
+development:
+  host: myblog.42foo.com
+  database: myblog
+  username: myblog
+  password: foobar
+  dbhost: localhost
+staging:
+  host: beta.myblog.com
+  path: /srv/apache/beta.myblog.com
+  database: myblog_beta
+  username: myblog
+  password: asd7ak3hd
+  dbhost: mysql.myblog.com
+production:
+  host: www.myblog.com
+  path: /srv/apache/myblog.com
+  database: myblog
+  username: myblog
+  password: asd7ak3hd
+  dbhost: mysql.myblog.com
